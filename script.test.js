@@ -5,7 +5,7 @@ test('soma dois números', () => {
 });
 
 test('compara o numero', () => {
-  expect(numeroMaior(2, 3));
+  expect(numeroMaior(2, 3).toBe(a || b));
 });
 
 test('mensagem de boas vindas', () => {
